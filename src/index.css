@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(31, 31, 31);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  color: black;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head img {
+  height: 30px;
+  margin-top: 30px;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/bg-desktop-dark.jpg);
+  background-size: 100% 30vh;
+  background-repeat: no-repeat;
+}
+.lig {
+  color: white;
+}
+.light {
+  color: black;
+  background-color: white;
+}
+.nav {
+  width: 500px;
+  margin-top: 30px;
+}
+form {
+  background-color: rgb(49, 49, 49);
+  padding: 5px;
+  color: white;
+}
+.forms {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+ul {
+  margin-left: 0;
+  margin-top: 40px;
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: hsl(235, 24%, 19%);
+  border-bottom: 1px solid gray;
+  margin-left: 0;
+  padding: 5px 10px;
+  font-size: 20px;
+  height: 40px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  margin-left: 0;
+  padding: 5px 10px;
+  font-size: 20px;
+  height: 40px;
+}
+.sub-list {
+  display: flex;
+}
+input[type="checkbox"] {
+  accent-color: tomato;
+}
+#name {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#search {
+  width: 85%;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  height: 25px;
+  padding-left: 10px;
+  background-color: transparent;
+  outline-offset: none;
+  color: grey;
+}
+.dec {
+  text-decoration: line-through;
+  color: gray;
+}
+#add {
+  border: 0;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+#add:hover {
+  background-color: transparent;
+  color: white;
+}
+#del {
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 3px;
+}
+#del:hover {
+  color: gray;
+}
+.detail {
+  background-color: hsl(235, 24%, 19%);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}
+.details {
+  background-color: white;
+  padding: 0px 10px;
+  font-size: 16px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}
+.det-act {
+  color: white;
+}
+.detail p,
+.details p {
+  cursor: pointer;
+}
+.detail p:hover {
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 90%;
+  }
+  #search {
+    width: 80%;
+  }
+}
