@@ -7,7 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(31, 31, 31);
 }
-
+.sub-body {
+  background-color: white;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -22,6 +24,7 @@ h1 {
 .head img {
   height: 30px;
   margin-top: 30px;
+  cursor: pointer;
 }
 .app {
   display: flex;
@@ -30,6 +33,9 @@ h1 {
   background-image: url(./img/bg-desktop-dark.jpg);
   background-size: 100% 30vh;
   background-repeat: no-repeat;
+}
+.sub-app {
+  background-image: url(./img/bg-desktop-light.jpg);
 }
 .lig {
   color: white;

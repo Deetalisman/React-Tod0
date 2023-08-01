@@ -50,6 +50,9 @@ function Nav() {
   }
   function handlebrit() {
     setIsDark((isDark) => !isDark);
+    document.body.classList.toggle("sub-body");
+    const Appp = document.querySelector(".app");
+    Appp.classList.toggle("sub-app");
   }
 
   return (
